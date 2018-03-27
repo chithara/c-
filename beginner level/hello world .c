@@ -1,15 +1,13 @@
-{
-	int a, b,c;
-	printf("enter the a and b values");
-	scanf("%d%d",&a&b);
-	printf("enter the c values");
-	scanf("%d",&c);
-	if(a>b && a>c){
-		printf("a is greater");}
-		else if(b>c && b>a)
-		{
-			printf("b is greater");}
-			else 
-			printf("c is greater");
-		
-	}
+#include <stdio.h>
+ 
+int main(void) {
+	int n;
+	if(n==0)
+	printf("The Number is neither Even nor Odd");
+	else if(n%2==0)
+	printf("\n The Number is Even");
+		else
+	print("The Number is Odd");
+	return 0;
+ 
+}
